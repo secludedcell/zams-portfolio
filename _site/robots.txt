@@ -57,5 +57,5 @@ User-agent: *
 Disallow: /
 
 
-Sitemap: https://tifajade.com/sitemap.xml
+Sitemap: https://zamortega.com/sitemap.xml
 

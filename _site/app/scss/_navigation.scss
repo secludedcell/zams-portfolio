@@ -104,6 +104,8 @@ nav {
 
   &__item {
     position: relative;
+    display: flex;
+    align-items: center;
 
     &:hover {
       color: var(--pico-primary);
@@ -130,6 +132,7 @@ nav {
     font-size: u.rem(12);
     line-height: 1.5;
     color: var(--pico-h1-color);
+    height: 100%;
 
     &:hover {
       color: var(--pico-primary) !important;
@@ -282,6 +285,9 @@ nav {
   cursor: pointer;
   outline: none;
   transition: opacity 0.8s ease;
+  height: auto;
+  vertical-align: middle;
+  padding-top: 2px; // slight bump-up
 }
 
 .hamburger-description {
