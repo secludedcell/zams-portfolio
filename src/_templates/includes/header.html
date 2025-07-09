@@ -26,7 +26,7 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url | url }}" />
     <meta
       property="og:image"
-      content="{{ site.url }}{% if image %}{{ image }}{% else %}/assets/img/projects/Zam Brand/Business_Card_Mockup.jpg{% endif %}"
+      content="{{ site.url }}{% if image %}{{ image }}{% else %}{% if images and images.length > 0 %}{{ images[0] }}{% else %}/assets/img/projects/Zam Brand/Business_Card_Mockup.jpg{% endif %}{% endif %}"
     />
 
     <meta property="og:type" content="website" />
