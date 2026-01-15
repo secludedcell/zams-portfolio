@@ -16,12 +16,16 @@
           <p class="gallery__title no-animation">
             <b>{{ project.data.title }}</b>
           </p>
+          <p class="gallery__subtitle">{{ project.data.subhed }}</p>
         </div>
       </a>
     </div>
     <div class="image-title">
       <a href="{{ project.url }}">
-        <h2 class="gallery__title">{{ project.data.title }}</h2>
+        <h2 class="gallery__title">
+          {{ project.data.title }}{% if project.data.subhed %} | {{
+          project.data.subhed }}{% endif %}
+        </h2>
       </a>
     </div>
   </div>
