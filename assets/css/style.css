@@ -58,6 +58,7 @@ form {
 
 img {
   height: auto;
+  width: 100%;
   display: block;
   border-radius: 5px;
 }
@@ -452,6 +453,13 @@ button {
 #tifajade {
   font-family: "Ringift", "Times New Roman", "Serif";
   font-size: 18vw;
+}
+@media (max-width: 43.74875em) {
+  #tifajade {
+    font-size: 33vw;
+  }
+}
+#tifajade {
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -461,11 +469,6 @@ button {
   left: 50%; /* Center horizontally */
   transform: translateX(-50%); /* Adjust for centering */
   animation: slide-up 1s forwards; /* Animation applied */
-}
-@media (max-width: 43.74875em) {
-  #tifajade {
-    font-size: 33vw;
-  }
 }
 
 .slide-container {
@@ -921,7 +924,6 @@ figure {
   padding-inline: 20px;
   gap: clamp(50vw, 1380px, 92vw);
   margin-top: 20px;
-  /* Portrait adjustments */
 }
 .slideshow-controls svg {
   transform: scale(1.5);
@@ -948,6 +950,9 @@ figure {
 }
 .slideshow-controls :hover {
   fill: var(--pico-primary-hover);
+}
+.slideshow-controls {
+  /* Portrait adjustments */
 }
 @media only screen and (orientation: portrait) {
   .slideshow-controls .slideshow-controls {
