@@ -29,3 +29,94 @@ Wellness and health - job?
  During the academic year I jumped from project to project developing
   workshop identities, posters, and flyers. Working alongside peer health
   educators, grads, and supervisors
+
+
+old good loser brief 
+Good Loser is a premium physical media subscription service designed for
+      nostalgia lovers. It meant to be a disruption in the system that has
+      normalized not owning any of your media. With many companies continually
+      raising their prices, customers are growing increasingly frustrated, with
+      the lack of originality, creativity, or appealing content. What is
+      supposed to be convenient becomes more and more bothersome.
+    </p>
+    <p>
+      At Good Loser, we believe it’s time for a change. It’s time to experience
+      music in a way that actually matters. By owning it—truly owning it—your
+      money goes directly to the artists who create, rather than fueling endless
+      corporate profits. It’s about giving control back to the listeners and
+      supporting the talent behind the music. In the end, Good Loser is not just
+      a service; it’s a return to the joy of owning something tangible,
+      meaningful, and lasting.
+
+  zam brand code here 
+  -------
+layout: "layouts/project.njk"
+title: "Walla Walla Union Bulletin"
+subtitle: "Walla Walla Union Bulletin is a regional newspaper offering local and national news coverage, providing print and digital content to its
+community in Eastern Washington."
+images:
+  - "/assets/img/projects/Zam Brand/Business_Card_Mockup.jpg"
+  - "/assets/img/projects/Zam Brand/ZAM BRAND YAS.jpeg"
+  - "/assets/img/projects/Zam Brand/ZAM 2.jpeg"
+
+order: 9
+year: 2025-2026
+---
+
+<img class="featured" src="{{ image }}" alt="" />
+<h1 class="title">{% if title %}{{ title }}{% endif %} ({{ year }})</h1>
+<p>
+  As I finished university, I created personal branding materials to support my
+  job search. This allowed me to focus on practical design and critically
+  consider how to present myself. The cards I created turned into the jumping
+  off point for the rest of my supplemental materials.
+</p>
+
+<h2>Process</h2>
+
+<div class="side-by-side">
+  <p>
+    Creating the Zam brand was quite fun as I got how I wanted to present myself
+    to employers and friends. I began by considering what I wanted people to
+    know about me. Facts, hobbies, intrestes and from there I decided I wanted
+    an all-encompassing introduction to myself! I began to think about symbols
+    and objects I come accross often. Colors and shapes I though would make me
+    stand out.
+  </p>
+  <img src="/assets/img/projects/Zam Brand/Matchbox horisontal 2.jpeg" alt="" />
+</div>
+
+<div class="side-by-side">
+  <img src="/assets/img/projects/Zam Brand/Zam Card Sketches.jpeg" alt="" />
+  <img
+    src="/assets/img/projects/Zam Brand/ZamLogo Brand Identity Sketches.jpeg"
+    alt=""
+  />
+</div>
+<p>
+  Like most projects, I began with a sketch—exploring style, colors, text
+  weight, and composition. I experimented with different layouts and design
+  elements during these drafting stages.
+</p>
+<div class="side-by-side">
+  <img
+    src="/assets/img/projects/Zam Brand/Playing with colors draft.jpeg"
+    alt=""
+  />
+  <img src="/assets/img/projects/Zam Brand/Hierarchy Draft.jpeg" alt="" />
+  <img src="/assets/img/projects/Zam Brand/Card Draft.jpeg" alt="" />
+</div>
+<h2>Product</h2>
+<div class="side-by-side">
+  <p>
+    The concept of the matchbox has been replaced by electric zappers and
+    lighters. None of the modern options hold the same feeling as striking a
+    match. By using a matchbox, I hope the keepsake expresses my creativity and
+    ability to create memorable, personal design.
+  </p>
+  <img src="/assets/img/projects/Zam Brand/Matchbox Printlines.jpeg" alt="" />
+</div>
+<div class="side-by-side">
+  <img src="/assets/img/projects/Zam Brand/Matchbox vertical 1.jpeg" alt="" />
+  <img src="/assets/img/projects/Zam Brand/Matchbox vertical 2.jpeg" alt="" />
+</div>
